@@ -1,11 +1,11 @@
-# TIL
+# Hello World :wave:
 
-#### 개발공부를 기록하는 공간 입니다. This is my study space for software.
+Welcome to my github profile.
 
-```
-I'm going to write a TIL as of today.
-I would like to review that I have studied once again.
-It is not necessary I must commit a daily, but just a comfortable study space.
-```
+I'm an Adroid developer.
 
----
+Currently I spend my free time working on :
+
+- :smile: Happy Coding 
+- :pencil2: Taking Coding Test
+- :books: learning English
