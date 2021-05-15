@@ -2,10 +2,10 @@
 
 Welcome to my github profile.
 
-I'm an Adroid developer.
+I'm an Android developer.
 
 Currently I spend my free time working on :
 
 - :smile: Happy Coding 
 - :pencil2: Taking Coding Test
-- :books: learning English
+- :books: Learning English
