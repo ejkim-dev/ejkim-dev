@@ -4,7 +4,7 @@
 
 ## 소개
 
-<span><img src="img/web.png" width = 100%></span>
+<span><img src="img/web.png" width = 70%></span>
 
 - 개발기간 : 4주
 - 처음 웹을 공부할 때 만들어 본 개인 포트폴리오 및 블로그 입니다.
@@ -21,3 +21,31 @@
 - API/라이브러리 : jQuery, PHPMailer, Bootstrap 4, Fetch API
 
 ## 기능
+
+### 1. 클라이언트 페이지 : 포트폴리오와 블로그 페이지
+
+<span><img src="img/web.png" width = 50%></span>
+
+### 2. 클라이언트 페이지 : 컨텍 메시지 전송
+
+<span><img src="img/1.png" width = 50%></span>
+
+### 3. 관리자 페이지 : 컨텍 메세지 확인 및 메일 전송
+
+<span><img src="img/2.png" width = 50%></span>
+
+### 4. 관리자 페이지 : 메일 전송
+
+<span><img src="img/3.png" width = 50%></span>
+
+### 5. 클라이언트 메일함 : 컨텍 메시지 답신 확인
+
+<span><img src="img/4.png" width = 50%></span>
+
+### 6. 관리자 페이지 : 포스터 올리기 및 수정, 삭제
+
+<span><img src="img/5.png" width = 50%></span>
+
+### 7. 클라이언트 페이지 : 포스터 확인
+
+<span><img src="img/6.png" width = 50%></span>
