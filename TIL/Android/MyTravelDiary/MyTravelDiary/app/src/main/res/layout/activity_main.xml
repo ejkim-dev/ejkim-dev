@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--imageview -> tag -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightGray"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+
+        <!--타이틀창-->
+        <LinearLayout
+            android:id="@+id/linearLayout_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:weightSum="1.0">
+                <ImageView
+                    android:onClick="OnClick"
+                    android:id="@+id/imageView_home"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_home_black_24dp"
+                    android:clickable="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"/>
+                <ImageView
+                    android:onClick="OnClick"
+                    android:id="@+id/imageView_menu"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_close_black_40dp"
+                    android:clickable="true"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView_title"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_horizontal"
+                android:text="사람들의 여행기록"
+                android:textSize="25sp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="#616060" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!--리싸이클러뷰-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <!--        <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="화면5"
+                    android:textSize="30dp" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="기록"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="뉴스"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="챗봇"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="게임"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="MY"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

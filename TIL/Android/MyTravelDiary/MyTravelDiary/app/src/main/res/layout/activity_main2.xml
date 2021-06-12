@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity2">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightGray"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+
+        <!--타이틀창-->
+        <LinearLayout
+            android:id="@+id/linearLayout_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:weightSum="1.0">
+                <ImageView
+                    android:onClick="OnClick"
+                    android:id="@+id/imageView_home"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_home_black_24dp"
+                    android:clickable="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"/>
+                <ImageView
+                    android:onClick="OnClick"
+                    android:id="@+id/imageView_menu"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_close_black_40dp"
+                    android:clickable="true"
+                    />
+            </LinearLayout>
+
+
+            <!--검색창-->
+            <LinearLayout
+                android:id="@+id/linearLayout_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/linear_txt"
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:weightSum="2"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tv_loc"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text=""/>
+                        <TextView
+                            android:id="@+id/tv_tem"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text=""/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_wthImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter"/>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:ems="100"
+                    android:inputType="textPersonName"
+                    android:hint="키워드를 입력해주세요"/>
+
+
+                <ImageButton
+                    android:id="@+id/imagebutton_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:background="#00FFFFFF"
+                    android:onClick="OnClick"
+                    android:src="@drawable/search_gray" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!--            리싸이클러뷰-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_news"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <!--        <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="화면5"
+                    android:textSize="30dp" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="기록"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="뉴스"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="챗봇"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="게임"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="MY"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

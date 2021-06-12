@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear_main5"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity5">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightGray"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+
+        <!--타이틀창-->
+        <LinearLayout
+            android:id="@+id/linearLayout_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:weightSum="1.0">
+                <ImageView
+                    android:onClick="OnClick"
+                    android:id="@+id/imageView_home"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_home_black_24dp"
+                    android:clickable="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"/>
+
+                <ImageView
+                    android:onClick="OnClick"
+                    android:id="@+id/imageView_menu"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_close_black_40dp"
+                    android:clickable="true"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView_title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal"
+                android:text="나의 여행기록"
+                android:textSize="25sp"
+                android:layout_marginBottom="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="#616060" />
+
+            <!--프로필창-->
+            <LinearLayout
+                android:id="@+id/linearLayout_profile"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:layout_marginBottom="5dp"
+                >
+                <!--                        <ImageView
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:gravity="center"
+                                            android:layout_margin="15dp"
+                                            android:src="@mipmap/ic_profile_round" />-->
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="15dp">
+                    <ImageView
+                        android:id="@+id/imageView_profileImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:src="@mipmap/ic_profile_round" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_editProfileInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+
+                    android:layout_marginLeft="5dp"
+                    >
+                    <TextView
+                        android:id="@+id/textView_profileName"
+                        android:visibility="visible"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:gravity="center_vertical"
+                        android:text="이름"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                        android:textColor="#616060" />
+
+                    <TextView
+                        android:id="@+id/textView_profileInfo"
+                        android:visibility="visible"
+                        android:clickable="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:gravity="top"
+                        android:text="안녕하세요!"
+                        android:textSize="13sp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                        android:textColor="#616060" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/button_editProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="프로필편집"
+                            android:textSize="11sp"/>
+                        <Button
+                            android:id="@+id/button_albumUpload"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="앨범업로드"
+                            android:textSize="11sp"/>
+
+                        <!--      <Button
+                                  android:id="@+id/button_albumDelete"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:text="앨범삭제"
+                                  android:textSize="11sp"/>
+  -->
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!--            리싸이클러뷰-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <!--        <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="화면5"
+                    android:textSize="30dp" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="기록"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="뉴스"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="챗봇"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="게임"
+                android:textColor="#646464"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+            <Button
+                android:onClick="OnClick"
+                android:id="@+id/button_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="MY"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="#2C2C2C"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

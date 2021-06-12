@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateIDLoadingActivity"
+    android:background="#9A000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="90dp"
+            android:background="#F0F0F0"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/spin_kit"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                app:SpinKit_Style="FadingCircle"
+                app:SpinKit_Color="#1BD2B5" />
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="4"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="계정 생성 중입니다."
+                android:textSize="13dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

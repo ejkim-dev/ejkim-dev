@@ -1,0 +1,7 @@
+직렬화 : Serialization
+뜻 : Object 를 Binary 형태의 파일로 바꾸는 것( = Object의 데이터를 하드디스크에 저장하고)
+Binary는 2진법을 뜻함; 01로 표현되어있음
+확장자는 .bin 이나 .ser
+
+역직렬화(↔ 직렬화) : Deserialization
+Binary 형태의 파일 → Object ( = 역직렬화를 통해서 하드디스크에 있던 데이터를 가지고 나옴)

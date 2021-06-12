@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".FindPWActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#F0F0F0"
+        >
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="등록된 이메일로 비밀번호 찾기"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+<!--    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="316dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/prompt_email"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="5dp"
+            android:selectAllOnFocus="true"/>
+    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <TextView
+        android:id="@+id/tv_userEmail"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="abc@email.com"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="30dp"
+        android:textSize="18sp"
+        android:text="비밀번호를 5회 이상 틀렸습니다."
+        android:textColor="#DD4C39"/>
+
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:text="해당 메일로 임시 비밀번호가 발급됩니다."
+        android:textColor="#DD4C39"/>
+
+   <!-- <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="316dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextInputEditText_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/prompt_password"
+            android:hint="@string/prompt_password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="2dp"
+            android:selectAllOnFocus="true"/>
+    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--<TextView
+        android:id="@+id/tv_pw_exception"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/invalid_password_short" />-->
+
+ <!--   <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="316dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextInputEditText_passwordcheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/prompt_password_check"
+            android:hint="@string/prompt_password_check"
+            android:inputType="textPassword"
+            android:layout_marginBottom="5dp"
+            android:selectAllOnFocus="true"/>
+    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+
+   <!-- <CheckBox
+        android:id="@+id/CheckBox_terms"
+        android:checked="false"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="개인정보처리방침 및 이용약관을 읽고 동의합니다."
+        />-->
+
+    <Button
+        android:id="@+id/bt_sendEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="이메일로 임시비밀번호 발급"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:background="#62757B"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

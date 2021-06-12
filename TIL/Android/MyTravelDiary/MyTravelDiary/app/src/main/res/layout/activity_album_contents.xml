@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/iv_albumImg"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher_round"/>
+
+        <TextView
+            android:id="@+id/tv_albumText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:textSize="40sp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/colorDarkGray"
+            android:layout_alignParentBottom="true"/>
+
+        <!--타이틀에만 visible-->
+        <TextView
+            android:id="@+id/tv_albumonlytitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="여행기록"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:textSize="40sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:visibility="gone"
+            android:textColor="@color/colorDarkGray"
+            android:layout_alignParentBottom="true"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal"
+        android:background="@color/colorDarkGray">
+
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:contextClickable="true"
+            android:src="@drawable/ic_left_black_40dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"/>
+
+        <!--유저에게만 보임-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/tv_private"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="비공개 앨범"
+                android:textColor="#ffffff"
+                android:gravity="right|center"
+                android:textSize="19dp"
+                />
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:text="|"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/tv_albumEdit"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="앨범편집"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="19dp" />
+        </LinearLayout>
+
+        <!--다른사람 계정일때 : 구독하기 버튼-->
+        <TextView
+            android:id="@+id/tv_try_subs"
+            android:clickable="true"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="구독하기"
+            android:textColor="#ffffff"
+            android:gravity="right|center"
+            android:layout_marginRight="50dp"
+            android:textSize="19dp" />
+
+        <!--다른사람 계정일때 : 구독중 버튼-->
+        <TextView
+            android:id="@+id/tv_subscript"
+            android:clickable="true"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="구독중"
+            android:textColor="#ffffff"
+            android:gravity="right|center"
+            android:layout_marginRight="50dp"
+            android:textSize="19dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

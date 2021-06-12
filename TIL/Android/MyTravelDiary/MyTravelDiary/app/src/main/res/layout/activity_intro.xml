@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".IntroActivity">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"
+        android:layout_weight="6"/>
+
+<!--    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.Wave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:SpinKit_Color="#1BD2B5" />-->
+
+<!--    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="데이터를 가져오는 중..."
+        android:gravity="center"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/tv_intro_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text=""
+        android:gravity="center"
+        android:textSize="17sp"/>-->
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:outlineSpotShadowColor="@color/colorPrimary"
+        android:max="100"/>
+
+    <TextView
+        android:id="@+id/tv_intro_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="0%"
+        android:gravity="center"
+        android:textSize="17sp"/>
+
+</LinearLayout>
