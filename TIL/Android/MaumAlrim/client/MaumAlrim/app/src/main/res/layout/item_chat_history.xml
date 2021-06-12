@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--채팅상담 히스토리 관련 아이템 : 상담사 프로필사진, 상담사이름, 상담유형, 상담상태 : 상담중 or 상담종료 > yyyy-mm-dd-->
+
+<!--    android:background="@drawable/chat_bubble"-->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_history_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profileimg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_history_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="상담사"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorDark"
+        app:layout_constraintStart_toEndOf="@+id/iv_history_profile"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_history_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="상담중"
+        android:paddingEnd="10dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_history_category"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="상담분야"
+        android:paddingStart="10dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        android:textSize="22sp"
+        android:maxLines="2"
+        app:layout_constraintTop_toBottomOf="@id/tv_history_name"
+        app:layout_constraintStart_toEndOf="@+id/iv_history_profile"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

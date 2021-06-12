@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <!--    디버깅용-->
+    <LinearLayout
+        android:id="@+id/ll_debug"
+        android:layout_width="380dp"
+        android:layout_height="137dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="1.0"
+        app:layout_constraintBottom_toTopOf="@+id/tv_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView_main_debug"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="디버깅용" />
+
+        <TextView
+            android:id="@+id/textView_main_result"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_weight="0.85"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="회원가입"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_nickname"
+        android:hint="닉네임"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_nick_alert"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:text="※두 글자 이상 입력해주세요."
+        android:textColor="@color/colorPink"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nickname" />
+
+    <EditText
+        android:id="@+id/et_user_id"
+        android:hint="이메일"
+        android:textSize="20sp"
+        android:maxLength="254"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nick_alert"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_id_alert"
+        android:visibility="visible"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="※메일을 입력해주세요."
+        android:textColor="@color/colorPink"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/et_user_pw"
+        android:hint="비밀번호"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_id_alert"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_pw_alert"
+        android:visibility="visible"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="※8~20자리 영문, 숫자, 특수문자 포함"
+        android:textColor="@color/colorPink"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:paddingBottom="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_pw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/et_pw_check"
+        android:visibility="gone"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_pw"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_pw_check_alert"
+        android:visibility="gone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="※비밀번호가 일치하지 않습니다."
+        android:textColor="@color/colorPink"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:paddingBottom="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/et_pw_check"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_spinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pw_alert">
+
+        <Spinner
+            android:id="@+id/spn_birth_year"
+            android:textSize="20sp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp" />
+
+        <Spinner
+            android:id="@+id/spn_gender"
+            android:textSize="20sp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_job"
+        android:hint="직업"
+        android:textSize="20sp"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/ll_spinner"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_job_alert"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="※두 글자 이상 입력해주세요."
+        android:textColor="@color/colorPink"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_job" />
+
+    <Button
+        android:id="@+id/bt_register"
+        android:enabled="true"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="회원가입"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_job_alert"
+        app:layout_constraintVertical_bias="0.28" />
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:visibility="gone"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_diary.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_diary.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat_contents.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_chat_contents.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_in.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_text_2.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_text_2.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chatbot.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_chatbot.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chat_history.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_chat_history.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_chat.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_main_chat.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_employee_mypage.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_employee_mypage.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_post_counseling.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_post_counseling.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_employee_sign_up.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_employee_sign_up.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_option.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_option.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_friends.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_friends.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_custom_dialog.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_post_chat.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_post_chat.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_my_diary.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_my_diary.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_option_2.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_option_2.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_text.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_text.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_user_list.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_user_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_employee.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_employee.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_post.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_post.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chatbot_daily.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_chatbot_daily.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_employee_main.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_employee_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chatbot_daily.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_chatbot_daily.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_employee_info.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\activity_employee_info.xml"
+    },
+    {
+        "merged": "D:\\Android\\MaumAlrim\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_my_text.xml",
+        "source": "D:\\Android\\MaumAlrim\\app\\src\\main\\res\\layout\\item_my_text.xml"
+    }
+]

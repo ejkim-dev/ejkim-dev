@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">마음알림</string>
+    <string name="title_chatbot">심리상담</string>
+    <string name="title_chatting">대시보드</string>
+    <string name="title_setting">내페이지</string>
+    <string name="title_chat">상담화면</string>
+    <string name="login_employee">상담사이신가요?</string>
+
+    <!--    대인관계, 정신건강, 학업/진로, 일탈/비행, SNS, 가정, 성격, 성, 근로-->
+    <string-array name="category">
+        <item>선택안함</item>
+        <item>대인관계</item>
+        <item>정신건강</item>
+        <item>학업/진로</item>
+        <item>일탈/비행</item>
+        <item>SNS/인터넷</item>
+        <item>가족</item>
+        <item>성격</item>
+        <item>성</item>
+        <item>근로</item>
+    </string-array>
+
+    <string-array name="planets_year">
+        <item>태어난해</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+    </string-array>
+
+    <string-array name="planets_gender">
+        <item>성별</item>
+        <item>남자</item>
+        <item>여자</item>
+    </string-array>
+
+</resources>

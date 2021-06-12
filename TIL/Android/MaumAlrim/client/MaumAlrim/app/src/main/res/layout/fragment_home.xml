@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <!--채팅창 : 리사이클러뷰 : 상담했던 채팅방리스트가 있음. 채팅방 삭제가능, 상담하러가기 버튼 있음.
+상담했던 채팅리스트(뷰) 클릭하면 다이얼로그가떠서 삭제하거나 채팅방으로 들어가서 볼 수 있음.
+현재 상담중인 채팅방도 생성되어야함
+상담하러가기 클릭하면 채팅방 액티비티로 이동 - 상담사들이 로그인을 하면 리사이클러뷰에 나타남.-->
+
+    <LinearLayout
+        android:id="@+id/ll_category"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="10dp"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:text="고민이 있나요? "
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_counselling"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:background="@color/colorLightPink"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="상담하기"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/ll_swipe_refresh"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_category">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rc_chat_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_no_data"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_category">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/rt_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="아직 상담받은 내역이 없습니다."
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
