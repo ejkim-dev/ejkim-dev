@@ -1,5 +1,5 @@
 import sort.*
 
 fun main() {
-    statistics()
+    sortCoordinate()
 }
