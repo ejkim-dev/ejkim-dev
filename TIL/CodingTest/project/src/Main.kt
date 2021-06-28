@@ -1,3 +1,5 @@
+import decryptmap.decryptTwoMaps
+
 fun main() {
-    print("hoho")
+    decryptTwoMaps()
 }
