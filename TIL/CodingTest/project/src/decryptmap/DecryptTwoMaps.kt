@@ -5,31 +5,18 @@ fun decryptTwoMaps() {
     val crypt2 = arrayOf(241, 129, 228, 165, 3, 1, 160, 25)
 
     for (i in crypt1.indices){
-        println("crypt1[$i] = ${crypt1[i].toString(2)}")
+        println("crypt1[$i] = ${crypt1[i].toString(2)} | crypt2[$i] = ${crypt2[i].toString(2)}")
     }
-    for (i in crypt2.indices){
-        println("crypt2[$i] = ${crypt2[i].toString(2)}")
-    }
-    println("단순 더하기 -----------------------------------------------")
+
+    var orcrypt = arrayOfNulls<Int>(8)
     for (i in crypt1.indices){
-        println("crypt1[$i] + crypt2[$i]= ${(crypt1[i]+crypt2[i]).toString(2)}")
+        orcrypt[i] = crypt1[i] or crypt2[i]
+        println((crypt1[i] or crypt2[i])) // .toString(2)
     }
-    println("or 연산자 -----------------------------------------------")
-
-    for (i in crypt1.indices){
-        println((crypt1[i] or crypt2[i]).toString(2))
-    }
-
-    println("and 연산자 -----------------------------------------------")
-
-    for (i in crypt1.indices){
-        println((crypt1[i] and crypt2[i]).toString(2))
+    println("-----------------------------------")
+    for (i in orcrypt.indices) {
+        println(orcrypt[i]!!.toString(2))
     }
 
-    println("xor 연산자 -----------------------------------------------")
-
-    for (i in crypt1.indices){
-        println((crypt1[i] xor crypt2[i]).toString(2))
-    }
 
 }
