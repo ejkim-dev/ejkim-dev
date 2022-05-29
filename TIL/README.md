@@ -20,6 +20,10 @@ It is not necessary I must commit a daily, but just a comfortable study space.
 
 - 📍Github [(click👆🏻)](https://github.com/ejkim-dev/AnimatedVectorDrawable) | Blog [(click👆🏻)](https://velog.io/@ejkim/Android-RenderThread%EC%99%80-AnimatedVectorDrawable)
 
+3. Counter : SavedStateHandle을 사용하여 앱 강제종료 시에도 안전하게 UI 상태 유지하기
+
+- 📍Github[(click👆🏻)](https://github.com/ejkim-dev/Counter)
+
 ## 👩🏻‍💻 Works
 
 1. 마음알림 : 청소년 상담 어플
