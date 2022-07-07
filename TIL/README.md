@@ -12,13 +12,22 @@ It is not necessary I must commit a daily, but just a comfortable study space.
 
 ## 📖 Study
 
-1. Calculator : Jetpack 아키텍처 구성요소 - LiveData, ViewModel
+1. Calculator : Jetpack 아키텍처 구성요소 - LiveData, ViewModel 활용
 
 - 📍Github[(click👆🏻)](https://github.com/ejkim-dev/Calculator)
 
 2. AnimatedVectorDrawable
 
 - 📍Github [(click👆🏻)](https://github.com/ejkim-dev/AnimatedVectorDrawable) | Blog [(click👆🏻)](https://velog.io/@ejkim/Android-RenderThread%EC%99%80-AnimatedVectorDrawable)
+
+3. Counter : SavedStateHandle을 사용하여 앱 강제종료 시에도 안전하게 UI 상태 유지하기
+
+- 📍Github[(click👆🏻)](https://github.com/ejkim-dev/Counter)
+
+4. MaskInfo : ViewModel, LiveData, Retrofit, Moshi 설정
+- 📍Java Github[(click👆🏻)](https://github.com/ejkim-dev/MaskInfo)
+- 📍Kotlin Github[(click👆🏻)](https://github.com/ejkim-dev/MaskInfoKotlin)
+
 
 ## 👩🏻‍💻 Works
 

@@ -6,6 +6,6 @@ I'm an Android developer.
 
 Currently I spend my free time working on :
 
-- :smile: Happy Coding 
-- :pencil2: Taking Coding Test
-- :books: Learning English
+- 📚 Today I Learn [(click)](https://github.com/ejkim-dev/ejkim-dev/tree/main/TIL)
+- 📝 Blog [(click)](https://velog.io/@ejkim)
+- 👩🏻‍💻 Portflio [(click)](https://ejkim-dev.github.io/)
