@@ -56,3 +56,7 @@ It is not necessary I must commit a daily, but just a comfortable study space.
 
 - 📍Github[(click👆🏻)](https://github.com/ejkim-dev/ejkim-dev/tree/main/TIL/Web/portfolio_site)
   > Client : Javascript, Html, Css | Server : APM, Aws ec2
+  
+# Coding Test
+- 📍LeetCode[(click👆🏻)](https://github.com/ejkim-dev/LeetCode)
+- 📍Baekjoon[(click👆🏻)](https://github.com/ejkim-dev/ejkim-dev/tree/main/TIL/CodingTest/algorithm)
