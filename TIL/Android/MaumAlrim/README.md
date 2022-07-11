@@ -12,10 +12,10 @@
 
 ## 구현기술
 
-- 언어 : Java, Xml, Html, Css, Javascript
+- 언어 : Java, Javascript, PHP
 - 웹서버 : Apache
 - 데이터베이스 : MySQL
-- 운영체제 : Ubuntu, Android
+- 운영체제 : Ubuntu, Android OS
 - 프로토콜 : HTTP, TCP/IP, SFTP, SSH
 - API/라이브러리 : Volly, HttpURLConnection, IBM Watson, Gson
 
