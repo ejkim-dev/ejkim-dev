@@ -14,7 +14,7 @@
 ## 구현기술
 
 - 기술스택 : Java
-- 운영체제 : Android
+- 운영체제 : Android OS
 - 프로토콜 : HTTP
 - API/라이브러리 : OkHttp, HttpURLConnection, Glide, Android- SpinKit, OpenWeatherMap API, SimSimi API, Naver news API, 부트페이 API, Google AdMob, Gson
 
