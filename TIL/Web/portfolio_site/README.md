@@ -13,7 +13,7 @@
 
 ## 구현기술
 
-- 언어 : HTML, CSS, JAVASCRIPT, PHP
+- 기술스택 : HTML, CSS, JAVASCRIPT, PHP
 - 웹서버 : Apache
 - 데이터베이스 : MySQL
 - 운영체제 : Ubuntu
