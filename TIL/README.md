@@ -25,8 +25,8 @@ It is not necessary I must commit a daily, but just a comfortable study space.
 - 📍Github [(click👆🏻)](https://github.com/ejkim-dev/Counter)
 
 4. MaskInfo : ViewModel, LiveData, Retrofit, Moshi 설정
-- 📍Java Github [(click👆🏻)](https://github.com/ejkim-dev/MaskInfo)
-- 📍Kotlin Github [(click👆🏻)](https://github.com/ejkim-dev/MaskInfoKotlin)
+- 📍Github - Java [(click👆🏻)](https://github.com/ejkim-dev/MaskInfo)
+- 📍Github - Kotlin [(click👆🏻)](https://github.com/ejkim-dev/MaskInfoKotlin)
 
 
 ## 👩🏻‍💻 Works
