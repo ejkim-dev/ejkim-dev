@@ -31,13 +31,13 @@ It is not necessary I must commit a daily, but just a comfortable study space.
 
 ## 👩🏻‍💻 Works
 
-1. 마음알림 : 청소년 상담 어플
+1. 마음알림 : 청소년 상담 어플 (Feb, 2020)
 
 - 📍Github [(click👆🏻)](https://github.com/ejkim-dev/ejkim-dev/tree/main/TIL/Android/MaumAlrim)
 
   > Client : Android Java | Server : APM, Aws, ec2 | Chatting Server : Java
 
-2. 여기(여행기록) 여행을 기록하는 어플
+2. 여기(여행기록) 여행을 기록하는 어플 (Nov, 2019)
 
 - 📍Github [(click👆🏻)](https://github.com/ejkim-dev/ejkim-dev/tree/main/TIL/Android/MyTravelDiary)
   > Client : Android Java
@@ -46,17 +46,22 @@ It is not necessary I must commit a daily, but just a comfortable study space.
 
 ## 👩🏻‍💻 Works
 
-1. 웹 포트폴리오
+1. 웹 포트폴리오 (Jun, 2021)
 
 - 📍Github [(click👆🏻)](https://github.com/ejkim-dev/ejkim-dev.github.io) | 📍Web Site [(click👆🏻)](https://ejkim-dev.github.io/)
 
   > Client : Javascript, Html, Css
 
-2. 포트폴리오 사이트
+2. 포트폴리오 사이트 (Dec, 2019)
 
 - 📍Github [(click👆🏻)](https://github.com/ejkim-dev/ejkim-dev/tree/main/TIL/Web/portfolio_site)
   > Client : Javascript, Html, Css | Server : APM, Aws ec2
   
 # Coding Test
-- 📍LeetCode [(click👆🏻)](https://leetcode.com/ejkim-dev/)
-- 📍Baekjoon [(click👆🏻)](https://github.com/ejkim-dev/ejkim-dev/tree/main/TIL/CodingTest/algorithm)
+1. LeetCode (Jul 8, 2022 ~ Present)
+- 📍Leetcode[(click👆🏻)](https://leetcode.com/ejkim-dev/)
+- 📍Github[(click👆🏻)](https://github.com/ejkim-dev/LeetCode)
+
+2. Baekjoon (Mar 14, 2021 / Jun 13, 2021)
+- 📍Github - Kotlin [(click👆🏻)](https://github.com/ejkim-dev/ejkim-dev/tree/main/TIL/CodingTest/algorithm)
+- 📍Github - Java [(click👆🏻)](https://github.com/ejkim-dev/CodingTestDaily)
