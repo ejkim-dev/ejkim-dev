@@ -12,7 +12,7 @@
 
 ## 구현기술
 
-- 기술스택 : Java, Javascript, PHP
+- 기술스택 : Java, Html, Css, Javascript, PHP
 - 웹서버 : Apache
 - 데이터베이스 : MySQL
 - 운영체제 : Ubuntu, Android OS
