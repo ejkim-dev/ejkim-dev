@@ -27,7 +27,7 @@ It is not necessary I must commit a daily, but just a comfortable study space.
  
 3. Counter <a target="_blank"><img src="https://img.shields.io/badge/2021.04-495C83?style=flat-square"/></a>
  <a target="_blank" rel="noopener noreferrer"><img src="https://camo.githubusercontent.com/aee129e881db7aacc908eaefd707ab46756300c2e879b109dc7f71c641a09ae3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4b6f746c696e2d3035313232413f7374796c653d666c6174266c6f676f3d4b6f746c696e266c6f676f436f6c6f723d464641353138" alt="Kotlin" data-canonical-src="https://img.shields.io/badge/-Kotlin-05122A?style=flat&amp;logo=Kotlin&amp;logoColor=FFA518" style="max-width: 100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/ejkim-dev/Calculator"><img src="https://camo.githubusercontent.com/202a58d250ff1d21ee70433e0070b55f8fed747f8883c1750742aa791b1ad871/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769744875622d3035313232413f7374796c653d666c6174266c6f676f3d676974687562" alt="GitHub" data-canonical-src="https://img.shields.io/badge/-GitHub-05122A?style=flat&amp;logo=github" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/ejkim-dev/Counter"><img src="https://camo.githubusercontent.com/202a58d250ff1d21ee70433e0070b55f8fed747f8883c1750742aa791b1ad871/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769744875622d3035313232413f7374796c653d666c6174266c6f676f3d676974687562" alt="GitHub" data-canonical-src="https://img.shields.io/badge/-GitHub-05122A?style=flat&amp;logo=github" style="max-width: 100%;"></a>
 
 - SavedStateHandle을 사용하여 앱 강제종료 시에도 안전하게 UI 상태 유지하기
 
