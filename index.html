@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기획하는 개발자</title>
+    <meta name="description" content="Portfolio for super junior software engineer Ejkim">
+    <meta name="author" content="Ejkim">
+    <link rel="icon" type="image/png"  href="imgs/like_icon.png">
+
+    <script src="https://kit.fontawesome.com/3ecc93542c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <!-- Logo & Menubar -->
+        <div class="navbar__logo">
+            <i class="fas fa-mug-hot"></i>
+            <a href="#">Eunjin Kim</a>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item selected" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item" data-link="#work">Work</li>
+            <li class="navbar__menu__item" data-link="#training">Training</li>
+            <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- section 1. Home -->
+    <section id="home">
+        <div class="home__container">
+            <img src="imgs/profile.png" alt="Eunjin's profile photo" class="home__avator"/>
+        <h1 class="home__title">👩🏻‍💻💕<br/>I'm a creator</h1>
+        <p class="home__description">저를 '크리에이터'라고 소개한 이유는 기획하는 것, 마케팅하는 것, 개발하는 것<br/>
+            모두 창조하는 것이기 때문입니다. 제가 했던 모든 커리어는 모두 연결되어있다고 생각합니다.<br/>
+            모든 크리에이터들과 함께 공유하고 성장하고 싶은 앱 개발자입니다.</h2>
+        <div>
+            <button class="home__contact">contact me</button>
+        </div>  
+        </div>  
+    </section>
+    
+    <!-- section 2. About -->
+    <section id="about" class="section section__container">
+        <h1>About me</h1>
+        <p>사람들이 쉽고, 편하게 사용할 수 있는 서비스를 만들고 싶어 개발자가 된 김은진입니다.
+        </br>약 3년간의 마케팅 및 기획 경험과 그 이전의 다양한 서비스직 경험으로 여러 분야의 사람들과 소통하는 것을 좋아합니다. 
+        개발 공부는 비전공자지만 빠르게 세계관을 넓히기 위하여 프론트, 앱, 서버 구분 없이 하였으며, 서비스 기획부터 개발까지 스스로 해보면서 배웠습니다.
+    </br>2020년부터 현재까지 안드로이드 개발을 주로 담당하였고, 현 회사에서는 iOS 업무도 함께하고 있습니다. 
+        </p>
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-android"></i>
+                </div>
+                <h2 class="major__title">Android</h2>
+                <div class="major__description">Kotlin, Java, ViewBinding, Koin
+                </br>RxJava, MVVM, Clean Architecture 
+                </div>
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fa-brands fa-apple"></i>
+                </div>
+                <h2 class="major__title">iOS</h2>
+                <div class="major__description">Swift, UIKit, RxSwift
+                </br>Swinject, MVVM, Clean Architecture
+                </div>
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fa-solid fa-file-code"></i>
+                </div>
+                <h2 class="major__title">Web</h2>
+                <div class="major__description">HTML, CSS, Javascript, </br>Ubuntu, Apache, PHP, MySQL</div>
+            </div>
+        </div>
+
+    </section>
+
+     <!-- section 4. Work -->
+     <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h2>Experience</h2>
+            <div class="about__majors">
+                <div class="job">
+                    <img src="imgs/jobs/ipixel_logo.png" alt="" width="40" class="job__logo">
+                    <div class="job__description">
+                        <p class="job__name">iPixel</p>
+                        <p class="job__period">프로덕션실 | SW개발자</p>
+                        <p class="job__period">2021 Jul - Present</p>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="imgs/jobs/ninewatt.png" alt="" class="job__logo">
+                    <div class="job__description">
+                        <p class="job__name">Ninewatt</p>
+                        <p class="job__period">분석팀 | 주임연구원</p>
+                        <p class="job__period">2020 Dec - 2021 Jun</p>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="imgs/jobs/ebay_icon.png" alt="" class="job__logo">
+                    <div class="job__description">
+                        <p class="job__name">eBay Korea</p>
+                        <p class="job__period">통합마케팅본부 | 판매자광고팀 | 사원</p>
+                        <p class="job__period">2017 Oct - 2018 Oct</p>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="imgs/jobs/jwagency_icon.png" alt="" class="job__logo">
+                    <div class="job__description">
+                        <p class="job__name">JWAGENCY</p>
+                        <p class="job__period">마케팅부서 | 주임</p>   
+                        <p class="job__period">2016 Jan - 2017 Jun</p>   
+                    </div>
+                </div>
+            </div>
+            <h2>Projects</h2>
+            <div class="work__categories">
+                <button class="category__btn selected" data-filter ="*">
+                    All  <span class="category__count">10</span>
+                </button>
+                <button class="category__btn" data-filter ="mobile">
+                    Mobile <span class="category__count">7</span>
+                </button>
+                <button class="category__btn" data-filter ="web">
+                    Web <span class="category__count">3</span>
+                </button>
+            </div>
+    
+            <!-- work__projects 기능 -> 마우스 클릭 : 상세페이지 링크 연결 / 
+                마우스 호버 : 프로젝트 이름 & 기술 간략 설명-->
+            <div class="work__projects">
+                <a href="https://play.google.com/store/apps/details?id=com.ipixelcorp.exercitetv" class="project" target="blank" data-type ="mobile">
+                    <img class="project__img" src="imgs/projects/exercite.png" alt="회사 프로젝트 1"/>
+                    <div class="project__description">
+                        <span>회사 프로젝트</span>
+                        <h3>Exercite - AI Home Workout</h3>
+                        <span><ul>
+                            <li>▫️ 담당 : 안드로이드, 안드로이드 TV, iOS 앱 개발</li>
+                            <li>▫️ 언어 : Kotlin, Swift</li>
+                            <li>▫️ 앱 설명 : 운동, 다이어트를 위한 AI 홈트앱</li>
+                        </ul></span>
+                    </div>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.ipixelcorp.howfitapp" class="project" target="blank" data-type ="mobile">
+                    <img class="project__img" src="imgs/projects/howfit.png" alt="회사 프로젝트 2"/>
+                    <div class="project__description">
+                        <span>회사 프로젝트</span>
+                        <h3>하우핏</h3>
+                        <span><ul>
+                            <li>▫️ 담당 : 안드로이드, 안드로이드 TV, iOS 앱 개발</li>
+                            <li>▫️ 언어 : Kotlin, Swift</li>
+                            <li>▫️ 앱 설명 : 운동, 다이어트를 위한 AI 홈트앱</li>
+                        </ul></span>
+                    </div>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.ninewatt.beacon_collector" class="project" target="blank" data-type ="mobile">
+                    <img class="project__img" src="imgs/projects/ble.png" alt="회사 프로젝트 3"/>
+                    <div class="project__description">
+                        <span>회사 프로젝트</span>
+                        <h3>ninewatt ble meter</h3>
+                        <span><ul>
+                            <li>▫️ 담당 : 안드로이드 화면 기획 및 개발</li>
+                            <li>▫️ 언어 : Java</li>
+                            <li>▫️ 앱 설명 : 사용자가 구입한 에너지 미터기(BLE)를 이용하여 사용자가 스캔한 미터기 정보를 조회하는 앱</li>
+                        </ul></span>
+                    </div>
+                </a>
+                <a href="https://github.com/ejkim-dev/ejkim-dev/blob/main/TIL/Android/ArFace/README.md" class="project" target="blank" data-type ="mobile">
+                    <img class="project__img" src="imgs/projects/face.png" alt="회사 프로젝트 4"/>
+                    <div class="project__description">
+                        <span>회사 프로젝트</span>
+                        <h3>얼굴 크기 측정 앱</h3>
+                        <span><ul>
+                            <li>▫️ 담당 : 안드로이드 개발</li>
+                            <li>▫️ 언어 : Java</li>
+                            <li>▫️ 앱 설명 : 전면 카메라로 얼굴 사진을 찍으면 크기를 측정해주고, 화장품을 몇 펌프 사용해야하는지 알려주는 앱</li>
+                        </ul></span>
+                    </div>
+                </a>
+                <a href="https://github.com/ejkim-dev/ejkim-dev/blob/main/TIL/Android/MaumAlrim" class="project" target="blank" data-type ="mobile">
+                    <img class="project__img" src="imgs/projects/maum.png" alt="마음알림"/>
+                    <div class="project__description">
+                        <span>개인 8주 프로젝트</span>
+                        <h3>마음알림</h3>
+                        <span><ul>
+                            <li>▫️ 언어 : Java, PHP</li>
+                            <li>▫️ 웹서버 / DB : Apache, MySQL</li>
+                            <li>▫️ OS / 서버 : Ubuntu, Android, AWS ec2</li>
+                            <li>▫️ 프로토콜/라이브러리: HTTP, TCP/IP, SFTP, SSH, IBM Watson, Volly</li>
+                        </ul></span>
+                    </div>
+                </a>
+                <a href="https://github.com/ejkim-dev/ejkim-dev/tree/main/TIL/Android/MyTravelDiary" class="project" target="blank" data-type ="mobile">
+                    <img class="project__img" src="imgs/projects/yogi.png" alt="여기(여행기록)"/>
+                    <div class="project__description">
+                        <span>개인 4주 프로젝트</span>
+                        <h3>여기(여행기록)</h3>
+                        <span><ul>
+                            <li>▫️ 언어 : Java</li>
+                            <li>▫️ 운영체제 : Android</li>
+                            <li>▫️ 라이브러리: OkHttp, HttpURLConnection, Glide, Android- SpinKit, OpenWeatherMap API, SimSimi API, Naver news API, 부트페이 API, Google AdMob, Gson</li>
+                        </ul></span>
+                    </div>
+                </a>
+                <a href="https://youtu.be/gst2rITcRwk" class="project" target="blank" data-type ="mobile">
+                    <img class="project__img" src="imgs/projects/makerton.png" alt="Therapy Home"/>
+                    <div class="project__description">
+                        <span>5인 팀 3주 프로젝트</span>
+                        <h3>Therapy Home</h3>
+                        <span><ul>
+                            <li>▫️ 담당 : 기획 및 안드로이드</li>
+                            <li>▫️ 언어 : JAVA, C++</li>
+                            <li>▫️ 운영체제 / 프로토콜 : Android, HTTP, Web socket</li>
+                            <li>▫️ API/라이브러리: OpenCV,Google Cloud Vision, Firebase</li>
+                        </ul></span>
+                    </div>
+                </a>
+                <a href="https://github.com/ejkim-dev/ejkim-dev.github.io" class="project" target="blank" data-type ="web">
+                    <img class="project__img" src="imgs/projects/portfolio.png" alt="웹 포트폴리오"/>
+                    <div class="project__description">
+                        <span>개인 1주 프로젝트</span>
+                        <h3>웹 포트폴리오</h3>
+                        <span><ul>
+                            <li>▫️ 언어 : Html, Css, Javascript es6</li>
+                            <li>▫️ API/라이브러리: css media query, Flexbox</li>
+                        </ul></span>
+                    </div>
+                </a>
+                <a href="https://github.com/ejkim-dev/ejkim-dev/tree/main/TIL/Web/portfolio_site" class="project" target="blank" data-type="web" >
+                    <img class="project__img" src="imgs/projects/web.png" alt="포트폴리오 사이트"/>
+                    <div class="project__description">
+                        <span>개인 4주 프로젝트</span>
+                        <h3>포트폴리오 사이트</h3>
+                        <span><ul>
+                            <li>▫️ 언어 : Html, Css, Javascript, PHP</li>
+                            <li>▫️ 웹서버 / DB : Apache, MySQL</li>
+                            <li>▫️ OS / 서버 : Ubuntu, AWS ec2</li>
+                            <li>▫️ 프로토콜/라이브러리: HTTPS, SFTP, SSH, SMTP, POP3, jQuery, PHPMailer, Bootstrap 4, Fetch API</li>
+                        </ul></span>
+                    </div>
+                </a>
+                <a href="https://dacon.io/competitions/official/235590/codeshare/961" class="project" target="blank" data-type="web" >
+                    <img class="project__img" src="imgs/projects/data_python.png" alt="코로나 데이터 시각화 AI 경진대회"/>
+                    <div class="project__description">
+                        <span>2인 팀 2주 프로젝트</span>
+                        <h3>코로나 데이터 시각화 </br>AI 경진대회</h3>
+                        <span><ul>
+                            <li>▫️ 담당 : 인사이트 도출, 데이터 시각화</li>
+                            <li>▫️ 언어 : Python</li>
+                            <li>▫️ API/라이브러리: Pandas, Numpy, Matplotlib, Plotly</li>
+                        </ul></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 3. Training -->
+    <section id="training" class="section">
+        <div class="section__container">
+            <h1>Training</h1>
+            <h2>Training & Attributes</h2>
+            <p>소프트웨어 기획부터 개발까지 경험이 있습니다. 동료들과 잘 어울려 팀 단위로 일하는 것을 좋아하고, 수평적인
+                의견을 나눌 수 있는 환경을 선호하고 있지만, 독립적인 작업도 가능합니다. 공부하는 분야나 신기술을 나눌 수 있는 
+            개발 문화를 원하고, 일할 때는 개발에 집중할 수 있는 환경을 원합니다.</p>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Training</h3>
+                    <div class="skill">
+                        <div class="skill__date">
+                            <span>19.04.01 - 19.10.11</span>
+                        </div>
+                        <div class="skill__description">
+                            <span class="name">엔코아플레이데이터평생교육원</span>
+                            <span>[4차 산업 혁명] 자바 웹기반 시큐어코딩 전문가 양성 과정</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__date">
+                            <span>19.01.05 - 19.02.16</span>
+                        </div>
+                        <div class="skill__description">
+                            <span class="name">엔코아 아카데미</span>
+                            <span>정형 빅데이터 구축 및 활용을 위한 SQL 실무 과정</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__date">
+                            <span>18.12.12 - 19.01.22</span>
+                        </div>
+                            <div class="skill__description">
+                            <span class="name">더좋은컴퓨터아카데미</span>
+                            <span>프로그래밍언어(C, C++)</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__date">
+                            <span>18.09.01 - 18.10.27</span>
+                        </div>
+                          <div class="skill__description">
+                            <span class="name">이젠아이티(IT)아카데미학원</span>
+                            <span>R 활용 빅데이터 분석</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 25%;"></div>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools__list">
+                            <li><span>Android Studio</span></li>
+                            <li><span>Xcode</span></li>
+                            <li><span>Visual Studio Code</span></li>
+                             <li><span>IntelliJ</span></li>
+                            <li><span>Eclipse</span></li>
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>Bitbucket, GitLab, GitHub</span></li>
+                            <li><span>Figma</span></li>
+                            <li><span>Zeplin</span></li>
+                            <li><span>Notion</span></li>
+                            <li><span>Confluence</span></li>
+                            <li><span>Jira</span></li>
+                            <li><span>Slack</span></li>
+                            <li><span>Skype</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- section 5. Testimonial -->
+    <section id="testimonials" class="section">
+        <div class="section__container">
+            <h1>Testimonials</h1>
+            <h3>See what they say about me</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img 
+                        src="imgs/testimonial/people_sample.png" 
+                        alt="People" 
+                        class="testimonial__avatar"
+                    />
+                    <div class="testimonial__speech-bubble">
+                        <p>
+                            프로젝트에 대한 열정이 있고, 책임감 있는 개발자입니다. 
+                         작은 프로젝트 정도는 리드를 맡길 수 있고, 인턴 교육 담당 업무를 맡겼는데 좋은 아웃풋을 
+                        보여주었습니다. 문제가 있다면 늘 해결을 위해 적극적으로 노력하였고, 
+                        개발자뿐 아니라 다른 분야에 있는 팀원들과도 좋은 관계를 유지하였습니다.
+                        앞으로 성장이 기대되는 개발자입니다.
+                        </p>
+                        <p class="name"><a href="https://github.com/parkslyn">박상린</a> / Ninewatt 팀장</p>
+                    </div>
+                </div>
+                <div class="testimonial reverse">
+                    <div class="testimonial__speech-bubble">
+                        <p>
+                            프로젝트를 함께하면서 다른 사람들과는 다른점을 많이 느끼게 해준 직원이였습니다.
+                    </br>많은 개발자들을 봤지만 자신의 작품에 애정과 자신감이 넘쳤습니다. 또한 책임감도 뛰어나서 협업을 할 때, 많은 의지가 되었습니다.
+                        자신의 의견을 많이 제시함과 동시에 다른 개발자의 의견을 적극 수렴해주는 모습이 멋있습니다.
+                        자신의 작품에 애정이 많을 수록 대부분 공유를 하지 않지만, 
+                        이분은 자연스럽게 공유하고, 더 좋은 프로그램을 만들기 위해서 피드백이 원할한 분 입니다.
+                        </p>
+                        <p class="name"><a href="https://onu0624.tistory.com">최온유</a> / Ninewatt 주임연구원</p>
+                    </div>
+                    <img 
+                    src="imgs/testimonial/onyou.jpeg" 
+                    alt="People" 
+                    class="testimonial__avatar"
+                />
+                </div>
+                <div class="testimonial">
+                    <img 
+                        src="imgs/testimonial/people_sample.png" 
+                        alt="People" 
+                        class="testimonial__avatar"
+                    />
+                    <div class="testimonial__speech-bubble">
+                        <p>
+                            단기간 프로젝트를 함께 할 당시, 기획부터 출시까지 은진님이 보여주셨던 열정과 책임감이 그 누구보다 뛰어나 인상 깊었던 기억이 납니다. 
+                            은진님의 성실함은 옆에서 지켜보고 있는 동료에게 큰 자극이 되기도 했습니다. 은진님은 항상 새로운 시도를 마다않고 
+                            되도록이면 많은 것을 학습하고자 하는 아주 모범적이고 진취적인 개발자입니다. 
+                            뿐만 아니라 긍정적인 태도와 특유의 유머로 팀의 분위기를 살려주는 재치있는 분이기도 합니다.
+                        </p>
+                        <p class="name">염혜지 / Ninewatt 주임연구원</p>
+                    </div>
+                </div>
+                <div class="testimonial reverse">
+                    <div class="testimonial__speech-bubble">
+                        <p> 개발 업무를 단독으로 수행할때 어려움이 있어도 스스로 문제를 해결해나가고 
+                            끝까지 완수해내는 모습을 보면서, 어떤 프로젝트도 믿고 맡길 수 있는 개발자라는 
+                            생각이 들었습니다. 함께 협업을 할 때는 적극적으로 다양한 의견을 제시하고, 
+                            의견을 잘 수렴하여 팀에 긍정적인 영향을 미치는 팀원이었습니다. 
+                            업무가 끝난 이후에도 개발 역량을 쌓기 위해 꾸준히 자기개발을 하는 등 빠르게 성장해나갈 개발자라고 생각합니다.</p>
+                        <p class="name">박현수</a> / Ninewatt 주임연구원</p>
+                    </div>
+                    <img 
+                    src="imgs/testimonial/hyunsu.jpeg" 
+                    alt="People" 
+                    class="testimonial__avatar"
+                />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 6. Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">biz.ejkim@gmail.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com/ejkim-dev" target="blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/eunjin-kim-238866168">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <p class="contact__rights">
+            2020 EJKIM - All right reserved
+        </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-angle-up"></i>
+    </button>
+
+</body>
+</html>
