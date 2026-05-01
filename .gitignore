@@ -2,3 +2,6 @@
 .claude/
 CLAUDE.md
 .claude.json
+
+# KeyFlow CLI session (contains refreshToken — never commit)
+.keyflow_session.json
